@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.restaurant{
+    height: 190vh;
+    width: 100%;
+  
+}
+
+
+nav{
+    width: 100%;
+    height: 13vh;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px gray;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+
+nav img{
+    width: 20vw;
+    height: 13vh;
+}
+
+
+ul{
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+
+
+ul li{
+    float: left;
+    list-style: none;
+    padding: 20px;
+}
+
+
+button{
+    width: 10vw;
+    height: 5vh;
+    margin-top: 50px;
+    border: none;
+}
+
+/* =============================================nav end ============================================================= */
+
+
+.container-fluid{
+    display: flex;
+   padding-top: 100px;
+}
+
+
+.Explore{
+    height: 60vh;
+    width: 50vw;
+    background-image: url("img/4-SM301396.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.Food-From{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+
+.Food-From h1{
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 40px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.Food-From p{
+   
+    margin-top: 10px;
+    margin-left: 40px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+
+  .Food-From button{
+    margin-left: 25px;
+
+  }
+
+  .Food-From button:hover{
+   box-shadow: 2px 2px 2px gray;
+    
+  }
+
+ 
+  .Food-From  a{
+    color: white;
+    text-decoration: none;
+  }
+
+
+/* =============================================== container-fluid end =================================================================*/
+
+.consectetur{
+    width: 100%;
+    height: 15vh;
+    background-color: red;
+    margin-top: 40px;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+/* ============================================== consectetur end========================================================*/
+
+
+
+.quibusdam{
+    width: 100%;
+    height: 40%;
+    margin-top: 30px;
+      display: flex;
+    gap: 20px;
+    background-image: url("img/15-SQ590818.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#quick{
+    margin-left: 40px;
+    
+}
+
+.card{
+    height: 60vh;
+    padding: 10px;
+    z-index: 20px;
+    position: relative;
+    top: 40px;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 2px 2px grey;
+    transform: scale(1.1,1.1);
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 13vh;
+    background-color: brown;
+}
+
+
+
+.fa-star{
+    color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
